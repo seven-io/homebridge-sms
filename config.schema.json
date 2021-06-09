@@ -1,0 +1,80 @@
+{
+    "pluginAlias": "Sms77SmsHomebridgePlugin",
+    "pluginType": "platform",
+    "schema": {
+        "properties": {
+            "apiKey": {
+                "description": "Get one for free at https://app.sms77.io/developer",
+                "required": true,
+                "title": "API key",
+                "type": "string"
+            },
+            "debug": {
+                "description": "Enable sandbox mode not sending messages - useful for testing",
+                "title": "Debug",
+                "type": "boolean"
+            },
+            "flash": {
+                "description": "Displayed directly in the receiver's display",
+                "title": "Flash",
+                "type": "boolean"
+            },
+            "foreign_id": {
+                "description": "Custom value returned in callbacks",
+                "maxLength": 64,
+                "title": "Foreign ID",
+                "type": "string"
+            },
+            "from": {
+                "description": "Sender ID - max 11 alphanumeric or 16 numeric characters",
+                "maxLength": 16,
+                "title": "From",
+                "type": "string"
+            },
+            "label": {
+                "description": "Custom identifier for sorting analytics",
+                "maxLength": 100,
+                "title": "Label",
+                "type": "string"
+            },
+            "name": {
+                "default": "sms77 SMS",
+                "description": "The name of the accessory",
+                "required": true,
+                "title": "Name",
+                "type": "string"
+            },
+            "no_reload": {
+                "description": "Allow sending duplicate SMS (text and recipient alike within 180 seconds)",
+                "title": "No reload lock",
+                "type": "string"
+            },
+            "performance_tracking": {
+                "description": "Tracking click performance for links found in the text",
+                "title": "Performance tracking",
+                "type": "boolean"
+            },
+            "text": {
+                "description": "Message content - max. 1520 characters for UTF-8 - multiple messages get concatenated",
+                "maxLength": 1520,
+                "title": "Title",
+                "type": "string",
+                "required": true
+            },
+            "to": {
+                "description": "Recipient(s) separated by comma",
+                "title": "To",
+                "type": "string",
+                "required": true
+            },
+            "ttl": {
+                "description": "Specify a custom time to live in minutes",
+                "title": "TTL",
+                "type": "integer",
+                "minimum": 1
+            }
+        },
+        "type": "object"
+    },
+    "singular": true
+}
