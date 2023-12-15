@@ -1,12 +1,12 @@
-![Sms77.io Logo](https://www.sms77.io/wp-content/uploads/2019/07/sms77-Logo-400x79.png "Sms77.io Logo")
+<img src="https://www.seven.io/wp-content/uploads/Logo.svg" width="250" />
 
-Homebridge plugin to send SMS via [Sms77](https://www.sms77.io).
+Homebridge plugin to send SMS via [seven.io](https://www.seven.io).
 
 Useful for homekit alarms and sensors. Set an automation to message in case of a water
 leak, smoke detection or so.
 
 Your **apiKey** can be retrieved
-from [Dashboard->Developer](https://app.sms77.io/developer)
+from [Dashboard->Developer](https://app.seven.io/developer)
 
 ## Installation
 
@@ -45,6 +45,6 @@ Example `config.json`:
 
 #### Support
 
-Need help? Feel free to [contact us](https://www.sms77.io/en/company/contact).
+Need help? Feel free to [contact us](https://www.seven.io/en/company/contact).
 
 [![MIT](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE)
