@@ -23,7 +23,7 @@
     ],
     "license": "MIT",
     "main": "src/index.js",
-    "name": "homebridge-sms77-sms",
+    "name": "@seven.io/homebridge-sms",
     "repository": {
         "type": "git",
         "url": "git://github.com/sms77io/homebridge-sms.git"

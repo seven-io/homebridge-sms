@@ -11,7 +11,7 @@ from [Dashboard->Developer](https://app.seven.io/developer)
 ## Installation
 
 1. Install homebridge: `npm i -g homebridge`
-2. Install plugin: `npm i -g homebridge-sms77-sms`
+2. Install plugin: `npm i -g @seven.io/homebridge-sms`
 3. Update `config.json` configuration file
 
 ### Configuration Example
