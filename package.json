@@ -5,7 +5,7 @@
         "url": "https://github.com/sms77io/homebridge-sms/issues"
     },
     "dependencies": {
-        "node-fetch": "^2.6.1",
+        "node-fetch": "^3.3.2",
         "sms77-client": "^2.11.1"
     },
     "description": "Homebridge plugin to send SMS via Sms77",
