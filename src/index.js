@@ -9,7 +9,7 @@ module.exports = function(homebridge) {
     Characteristic = homebridge.hap.Characteristic
     Service = homebridge.hap.Service
 
-    homebridge.registerAccessory('homebridge-sms77-sms', 'Sms77Sms', Sms77SmsSwitch)
+    homebridge.registerAccessory('@seven.io/homebridge-sms', 'Sms77Sms', Sms77SmsSwitch)
 }
 
 function Sms77SmsSwitch(log, config) {
@@ -33,7 +33,7 @@ function Sms77SmsSwitch(log, config) {
     if (!this.text) throw new Error('Missing text!')
     if (!this.to) throw new Error('Missing to!')
 
-    this.client = new Client(this.apiKey, 'homebridge-sms')
+    this.client = new Client(this.apiKey, '@seven.io/homebridge-sms')
 
     this.services = {
         AccessoryInformation: new Service.AccessoryInformation(),
