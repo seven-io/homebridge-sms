@@ -1,6 +1,6 @@
 {
-    "pluginAlias": "Sms77SmsHomebridgePlugin",
-    "pluginType": "platform",
+    "pluginAlias": "Sms77Sms",
+    "pluginType": "accessory",
     "schema": {
         "properties": {
             "apiKey": {
